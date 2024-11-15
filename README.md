@@ -1,11 +1,14 @@
 # Swapping-of-three-numbers-using-verilog-HDL
-To design and simulate a Verilog HDL code for swapping the values of three numbers using non-blocking assignments.
 
-Aim To design and simulate a Verilog HDL code for swapping the values of three numbers without using any temporary variables, and verify the correctness of the swapping operation through a testbench using the Vivado 2023.1 simulation environment.
 
-Apparatus Required Vivado 2023.1 Computer system with a suitable operating system.
+## Aim
+To design and simulate a Verilog HDL code for swapping the values of three numbers without using any temporary variables, and verify the correctness of the swapping operation through a testbench using the Vivado 2023.1 simulation environment.
 
-Procedure Launch Vivado 2023.1:
+## Apparatus Required
+Required Vivado 2023.1 Computer system with a suitable operating system.
+
+## Procedure 
+Launch Vivado 2023.1:
 
 Open Vivado and create a new project. Write the Verilog Code for Swapping:
 
@@ -21,7 +24,7 @@ Examine the waveform to confirm that the values of the three numbers are swapped
 
 Capture the waveform output and include the results in your report for verification.
 
-Verilog Code for Swapping Three Numbers
+## Verilog Code for Swapping Three Numbers
 
 module normal_code(a,b,c,x,y,z);
     input[3:0]a; 
@@ -41,7 +44,7 @@ module normal_code(a,b,c,x,y,z);
 
 endmodule
 
-Test bench code for swapping three numbers
+## Test bench code for swapping three numbers
 
 module normal_tb;
     reg [3:0] a, b, c;
@@ -82,8 +85,9 @@ module normal_tb;
 
 endmodule
 
-Output
+## OUTPUT
 ![swapping op](https://github.com/user-attachments/assets/75ff48e5-394d-4d58-a32d-a3c180c5e603)
 
-Conclusion In this experiment, a Verilog HDL code for swapping three numbers was designed and successfully simulated. The testbench verified the swapping operation, showing that the values of three input numbers (a, b, and c) were swapped correctly using non-blocking assignments. 
+## CONCLUSION
+In this experiment, a Verilog HDL code for swapping three numbers was designed and successfully simulated. The testbench verified the swapping operation, showing that the values of three input numbers (a, b, and c) were swapped correctly using non-blocking assignments. 
 
