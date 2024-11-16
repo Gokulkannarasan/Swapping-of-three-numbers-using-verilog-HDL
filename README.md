@@ -1,4 +1,4 @@
-# Swapping-of-three-numbers-using-verilog-HDL
+# Exp No:3 Swapping-of-three-numbers-using-verilog-HDL
 
 
 ## Aim
@@ -85,9 +85,9 @@ module normal_tb;
 
 endmodule
 
-## OUTPUT
+## Output
 ![swapping op](https://github.com/user-attachments/assets/75ff48e5-394d-4d58-a32d-a3c180c5e603)
 
-## CONCLUSION
+## Conclusion
 In this experiment, a Verilog HDL code for swapping three numbers was designed and successfully simulated. The testbench verified the swapping operation, showing that the values of three input numbers (a, b, and c) were swapped correctly using non-blocking assignments. 
 
