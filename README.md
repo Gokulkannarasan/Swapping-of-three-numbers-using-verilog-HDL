@@ -1,4 +1,4 @@
-# Exp No:3 Swapping-of-three-numbers-using-verilog-HDL
+# Exp No:3  Write and simulate Swapping of three numbers using verilog HDL and verify with testbench
 
 
 ## Aim
