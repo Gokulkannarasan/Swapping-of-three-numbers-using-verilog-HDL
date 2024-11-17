@@ -24,6 +24,10 @@ Examine the waveform to confirm that the values of the three numbers are swapped
 
 Capture the waveform output and include the results in your report for verification.
 
+
+
+
+
 ## Verilog Code for Swapping Three Numbers
 
 module normal_code(a,b,c,x,y,z);
